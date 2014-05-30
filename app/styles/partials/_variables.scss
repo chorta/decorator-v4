@@ -1,0 +1,27 @@
+/* BREAKPOINTS */
+$full: 1200px;
+$desktop: 960px;
+$desktop-small: 768px;
+$tablet: 640px;
+$mobile: 480px;
+$mobile-small: 360px;
+$minimum: 320px;
+
+/* COLORS */
+$teal: #2b92b9;
+$search-teal: #2B607E;
+
+/* LAYOUT VALUES */
+$slider-offset: 83%;
+$nav-height: 35px;
+
+/* FONTS */
+$icon-font-path: "../fonts/";
+
+/* MIXINS */
+@mixin transition($time) {
+	-webkit-transition: $time ease-in-out;
+	-moz-transition: $time ease-in-out;
+	-o-transition: $time ease-in-out;
+	transition: $time ease-in-out;
+}
